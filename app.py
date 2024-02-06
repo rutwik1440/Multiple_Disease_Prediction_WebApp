@@ -29,7 +29,8 @@ with st.sidebar:
                            icons=['activity', 'heart', 'person'],
                            default_index=0)
 
-
+st.sidebar.markdown("---")
+st.sidebar.markdown("Created by **Rutwik More**")
 # Diabetes Prediction Page
 if selected == 'Diabetes Prediction':
 
